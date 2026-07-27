@@ -1,25 +1,25 @@
 class Portdoc < Formula
   desc "Local dev server control panel"
   homepage "https://github.com/bradtraversy/portdoc"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/bradtraversy/portdoc/releases/download/v0.1.1/portdoc-aarch64-apple-darwin.tar.xz"
-      sha256 "5f2ac583b26ba3ca2e39608423d597a4d7884a7d2c56afe2e93e21352eeb1ef0"
+      url "https://github.com/bradtraversy/portdoc/releases/download/v0.1.2/portdoc-aarch64-apple-darwin.tar.xz"
+      sha256 "0a4493eddca34fe9ebbd010c53682a75dfaf7e01c52a4dabf79b9b8b0cf755c5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bradtraversy/portdoc/releases/download/v0.1.1/portdoc-x86_64-apple-darwin.tar.xz"
-      sha256 "b73ccd29657c85913b6a0fe8abec401030b1eea1ffbcd46846cb5feefe0dee47"
+      url "https://github.com/bradtraversy/portdoc/releases/download/v0.1.2/portdoc-x86_64-apple-darwin.tar.xz"
+      sha256 "bd392be6934c7b2d4f205d912de663ffbbc33104e0c9421240aa5693b509c055"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/bradtraversy/portdoc/releases/download/v0.1.1/portdoc-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "bd2c51b21cae5198d5771037df92382e4536d8098341754bb5baf5576e308c4d"
+      url "https://github.com/bradtraversy/portdoc/releases/download/v0.1.2/portdoc-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2dc09e7b084cc33ca9bcc30aa44ced1309a1fcfd1f063c03db1ff4f6ddccf059"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bradtraversy/portdoc/releases/download/v0.1.1/portdoc-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "06a6e2b4504c9d21659f314d3e0397540d48d9d03e8f75ed807ffc9d18fd1d13"
+      url "https://github.com/bradtraversy/portdoc/releases/download/v0.1.2/portdoc-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "54564dda0520e7e489c93f292a58956865ec90e60526c8cfa9dff5980bf1bf9f"
     end
   end
 
