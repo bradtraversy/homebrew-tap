@@ -1,6 +1,15 @@
 # homebrew-tap
 
-Homebrew formulas for [Traversy tools](https://github.com/bradtraversy).
+Homebrew formulas and casks for [Traversy tools](https://github.com/bradtraversy).
+
+## Multiprompter
+
+A multi-window teleprompter for macOS: one markdown script drives any number
+of frameless viewer windows, all scroll-synced to the same spot.
+
+```sh
+brew install --cask bradtraversy/tap/multiprompter
+```
 
 ## PortDoc
 
